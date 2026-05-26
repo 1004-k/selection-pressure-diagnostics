@@ -1,10 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the associated article."
 title: "Selection-pressure diagnostics for per-protocol causal inference"
+type: software
 authors:
   - family-names: Kim
     given-names: Geonwoo
+    orcid: "https://orcid.org/0009-0001-6132-7010"
 version: "v1.0.0-jci-submission"
 date-released: "2026-05-26"
-repository-code: "https://github.com/REPLACE_WITH_USERNAME/selection-pressure-diagnostics-jci"
+repository-code: "https://github.com/1004-k/selection-pressure-diagnostics"
 license: MIT
