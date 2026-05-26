@@ -1,0 +1,3 @@
+Nuisance regime,"Type I error, IPCW","Coverage, IPCW","Power, IPCW","Sign error, IPCW","Type I error, DR-AIPW","Coverage, DR-AIPW","Power, DR-AIPW","Sign error, DR-AIPW"
+Richer baseline nuisance set,0.0425,0.9575,0.3775,0.05,0.0425,0.9575,0.3875,0.0525
+Reduced baseline nuisance set,0.085,0.915,0.23,0.1225,0.0875,0.9125,0.24,0.125

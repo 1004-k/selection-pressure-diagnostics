@@ -1,0 +1,19 @@
+Scenario,Pressure trajectory,Deviation nonlinearity,Prognostic information quality (rho),Description
+S01,flat,none,0.4,A: flat; B: none; ρ=0.4
+S02,flat,none,0.7,A: flat; B: none; ρ=0.7
+S03,flat,none,1.0,A: flat; B: none; ρ=1.0
+S04,flat,threshold_jump,0.4,A: flat; B: threshold-jump; ρ=0.4
+S05,flat,threshold_jump,0.7,A: flat; B: threshold-jump; ρ=0.7
+S06,flat,threshold_jump,1.0,A: flat; B: threshold-jump; ρ=1.0
+S07,increasing,none,0.4,A: increasing; B: none; ρ=0.4
+S08,increasing,none,0.7,A: increasing; B: none; ρ=0.7
+S09,increasing,none,1.0,A: increasing; B: none; ρ=1.0
+S10,increasing,threshold_jump,0.4,A: increasing; B: threshold-jump; ρ=0.4
+S11,increasing,threshold_jump,0.7,A: increasing; B: threshold-jump; ρ=0.7
+S12,increasing,threshold_jump,1.0,A: increasing; B: threshold-jump; ρ=1.0
+S13,late_surge,none,0.4,A: late-surge; B: none; ρ=0.4
+S14,late_surge,none,0.7,A: late-surge; B: none; ρ=0.7
+S15,late_surge,none,1.0,A: late-surge; B: none; ρ=1.0
+S16,late_surge,threshold_jump,0.4,A: late-surge; B: threshold-jump; ρ=0.4
+S17,late_surge,threshold_jump,0.7,A: late-surge; B: threshold-jump; ρ=0.7
+S18,late_surge,threshold_jump,1.0,A: late-surge; B: threshold-jump; ρ=1.0

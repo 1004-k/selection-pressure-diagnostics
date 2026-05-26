@@ -1,0 +1,52 @@
+JCI standardized-IPCW QA run at 2026-05-25 23:54:54
+OUT_DIR=output_jci_final
+B=200; truth_levels=null,non_null; mis_spec=0,1; time_updated_sensitivity=1
+
+raw/replicate_results_rescue.csv rows: observed=14400 expected=14400
+raw/replicate_results_rescue.csv nonfinite beta_hat: 0
+raw/replicate_results_rescue.csv nonfinite se_hat: 0
+raw/replicate_results_rescue.csv nonfinite max_spd: 0
+raw/ipcw_risk_rescue.csv rows: observed=14400 expected=14400
+raw/ipcw_risk_rescue.csv nonfinite logrr: 0
+raw/ipcw_risk_rescue.csv nonfinite se_logrr: 0
+raw/ipcw_risk_rescue.csv nonfinite rd: 0
+raw/ipcw_risk_rescue.csv nonfinite se_rd: 0
+raw/ipcw_risk_rescue.csv nonfinite risk1: 0
+raw/ipcw_risk_rescue.csv nonfinite risk0: 0
+raw/dr_risk_rescue.csv rows: observed=14400 expected=14400
+raw/dr_risk_rescue.csv nonfinite logrr: 0
+raw/dr_risk_rescue.csv nonfinite se_logrr: 0
+raw/dr_risk_rescue.csv nonfinite rd: 0
+raw/dr_risk_rescue.csv nonfinite se_rd: 0
+raw/dr_risk_rescue.csv nonfinite risk1: 0
+raw/dr_risk_rescue.csv nonfinite risk0: 0
+raw/spd_curves_rescue.csv rows: observed=72000 expected=72000
+raw/spd_curves_rescue.csv nonfinite gamma_hat: 0
+raw/weight_diagnostics_rescue.csv rows: observed=288000 expected=288000
+raw/weight_diagnostics_rescue.csv nonfinite rESS: 0
+raw/weight_diagnostics_rescue.csv nonfinite tail_share: 0
+perf_summary_rescue_ipcw_risk.csv rows: observed=72 expected=72
+perf_summary_rescue_ipcw_risk.csv nonfinite ci_excl0: 0
+perf_summary_rescue_ipcw_risk.csv nonfinite cover: 0
+perf_summary_rescue_dr.csv rows: observed=72 expected=72
+perf_summary_rescue_dr.csv nonfinite ci_excl0: 0
+perf_summary_rescue_dr.csv nonfinite cover: 0
+raw/mc_truth_risk.csv rows: observed=36 expected=36
+raw/mc_truth_risk.csv nonfinite logrr_true: 0
+raw/mc_truth_risk.csv nonfinite rd_true: 0
+raw/ipcw_timeupdated_risk_rescue.csv rows: observed=14400 expected=14400
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite logrr: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite se_logrr: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite rd: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite se_rd: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite risk1: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite risk0: 0
+perf_summary_rescue_ipcw_timeupdated.csv rows: observed=72 expected=72
+perf_summary_rescue_ipcw_timeupdated.csv nonfinite ci_excl0: 0
+perf_summary_rescue_ipcw_timeupdated.csv nonfinite cover: 0
+raw/ipcw_timeupdated_risk_rescue.csv dev_model_status counts:
+          dev_model_status     N   pct
+                    <char> <int> <num>
+1:  glm_timeupdated_richer  7200   0.5
+2: glm_timeupdated_reduced  7200   0.5
+raw/ipcw_timeupdated_risk_rescue.csv proportion glm_timeupdated status: 1.0000

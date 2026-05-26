@@ -1,0 +1,11 @@
+Time-updated IPCW sensitivity patch rerun at 2026-05-25 23:54:54
+OUT_DIR=output_jci_final
+B=200; N=2000; expected_rows=14400; observed_rows=14400
+nonfinite core estimates: 0
+proportion glm_timeupdated status: 1.0000
+
+Model status counts:
+          dev_model_status     N   pct
+                    <char> <int> <num>
+1:  glm_timeupdated_richer  7200   0.5
+2: glm_timeupdated_reduced  7200   0.5

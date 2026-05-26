@@ -1,0 +1,9 @@
+Component,Specification
+Time zero,Baseline treatment assignment in the simulated target trial. Time zero was not shifted to post-baseline adherence or confirmation.
+Treatment strategies,Sustained adherence to treatment strategy A versus sustained adherence to treatment strategy B through the fixed horizon.
+Primary estimand,"Marginal fixed-horizon per-protocol risk contrast at tau, reported as log risk ratio and risk difference."
+Post-baseline deviation,Deviation was a post-baseline process. It was handled through adherence or censoring adjustment rather than by conditioning on future adherence.
+Primary estimators,Standardized IPCW and DR-AIPW. Both targeted the same marginal fixed-horizon per-protocol risk contrast.
+Diagnostic axis,"SPD(t), a time-resolved selection-pressure index defined as the log hazard ratio for deviation per one standard deviation higher prognostic score within the risk set."
+Simulation truth,"True fixed-horizon risks were computed by Monte Carlo intervention under the known data-generating mechanism, not by either evaluated estimator."
+Sensitivity analysis,A supplementary time-updated IPCW sensitivity estimator used person-period adherence models with observed time-updated prognostic score and flexible time terms.

@@ -1,0 +1,176 @@
+
+============================================================
+JCI patched time-updated IPCW sensitivity rerun
+============================================================
+Mode: full
+OUT_DIR: output_jci_final
+B: 200
+N: 2000
+N_CORES: 12
+============================================================
+
+
+------------------------------------------------------------
+Running: patched time-updated IPCW sensitivity only
+Script: scripts/05_rerun_timeupdated_sensitivity_only.R
+------------------------------------------------------------
+Loaded existing intervention MC truth: output_jci_final/raw/mc_truth_risk.csv
+[2026-05-25 21:34:39] Time-updated IPCW sensitivity rerun started | OUT_DIR=output_jci_final | scenarios=36 | mis_spec=0,1 | B=200 | N=2000 | truths=null,non_null | N_CORES=12
+[21:34:40] SCENARIO 1/36 start | S01 | mis_spec=0
+[21:38:54] SCENARIO 1/36 done | S01 | mis_spec=0
+[21:38:54] SCENARIO 2/36 start | S01 | mis_spec=1
+[21:43:01] SCENARIO 2/36 done | S01 | mis_spec=1
+[21:43:01] SCENARIO 3/36 start | S02 | mis_spec=0
+[21:47:11] SCENARIO 3/36 done | S02 | mis_spec=0
+[21:47:11] SCENARIO 4/36 start | S02 | mis_spec=1
+[21:51:12] SCENARIO 4/36 done | S02 | mis_spec=1
+[21:51:12] SCENARIO 5/36 start | S03 | mis_spec=0
+[21:55:17] SCENARIO 5/36 done | S03 | mis_spec=0
+[21:55:17] SCENARIO 6/36 start | S03 | mis_spec=1
+[21:59:17] SCENARIO 6/36 done | S03 | mis_spec=1
+[21:59:17] SCENARIO 7/36 start | S04 | mis_spec=0
+[22:03:07] SCENARIO 7/36 done | S04 | mis_spec=0
+[22:03:07] SCENARIO 8/36 start | S04 | mis_spec=1
+[22:06:54] SCENARIO 8/36 done | S04 | mis_spec=1
+[22:06:54] SCENARIO 9/36 start | S05 | mis_spec=0
+[22:10:41] SCENARIO 9/36 done | S05 | mis_spec=0
+[22:10:41] SCENARIO 10/36 start | S05 | mis_spec=1
+[22:14:22] SCENARIO 10/36 done | S05 | mis_spec=1
+[22:14:22] SCENARIO 11/36 start | S06 | mis_spec=0
+[22:18:08] SCENARIO 11/36 done | S06 | mis_spec=0
+[22:18:08] SCENARIO 12/36 start | S06 | mis_spec=1
+[22:21:48] SCENARIO 12/36 done | S06 | mis_spec=1
+[22:21:48] SCENARIO 13/36 start | S07 | mis_spec=0
+[22:25:51] SCENARIO 13/36 done | S07 | mis_spec=0
+[22:25:51] SCENARIO 14/36 start | S07 | mis_spec=1
+[22:29:48] SCENARIO 14/36 done | S07 | mis_spec=1
+[22:29:48] SCENARIO 15/36 start | S08 | mis_spec=0
+[22:33:51] SCENARIO 15/36 done | S08 | mis_spec=0
+[22:33:51] SCENARIO 16/36 start | S08 | mis_spec=1
+[22:37:47] SCENARIO 16/36 done | S08 | mis_spec=1
+[22:37:47] SCENARIO 17/36 start | S09 | mis_spec=0
+[22:41:48] SCENARIO 17/36 done | S09 | mis_spec=0
+[22:41:48] SCENARIO 18/36 start | S09 | mis_spec=1
+[22:45:46] SCENARIO 18/36 done | S09 | mis_spec=1
+[22:45:46] SCENARIO 19/36 start | S10 | mis_spec=0
+[22:49:29] SCENARIO 19/36 done | S10 | mis_spec=0
+[22:49:29] SCENARIO 20/36 start | S10 | mis_spec=1
+[22:53:09] SCENARIO 20/36 done | S10 | mis_spec=1
+[22:53:09] SCENARIO 21/36 start | S11 | mis_spec=0
+[22:56:51] SCENARIO 21/36 done | S11 | mis_spec=0
+[22:56:51] SCENARIO 22/36 start | S11 | mis_spec=1
+[23:00:33] SCENARIO 22/36 done | S11 | mis_spec=1
+[23:00:33] SCENARIO 23/36 start | S12 | mis_spec=0
+[23:04:18] SCENARIO 23/36 done | S12 | mis_spec=0
+[23:04:18] SCENARIO 24/36 start | S12 | mis_spec=1
+[23:07:59] SCENARIO 24/36 done | S12 | mis_spec=1
+[23:07:59] SCENARIO 25/36 start | S13 | mis_spec=0
+[23:11:59] SCENARIO 25/36 done | S13 | mis_spec=0
+[23:11:59] SCENARIO 26/36 start | S13 | mis_spec=1
+[23:15:56] SCENARIO 26/36 done | S13 | mis_spec=1
+[23:15:56] SCENARIO 27/36 start | S14 | mis_spec=0
+[23:19:59] SCENARIO 27/36 done | S14 | mis_spec=0
+[23:19:59] SCENARIO 28/36 start | S14 | mis_spec=1
+[23:23:58] SCENARIO 28/36 done | S14 | mis_spec=1
+[23:23:58] SCENARIO 29/36 start | S15 | mis_spec=0
+[23:28:04] SCENARIO 29/36 done | S15 | mis_spec=0
+[23:28:04] SCENARIO 30/36 start | S15 | mis_spec=1
+[23:32:12] SCENARIO 30/36 done | S15 | mis_spec=1
+[23:32:12] SCENARIO 31/36 start | S16 | mis_spec=0
+[23:36:07] SCENARIO 31/36 done | S16 | mis_spec=0
+[23:36:07] SCENARIO 32/36 start | S16 | mis_spec=1
+[23:39:52] SCENARIO 32/36 done | S16 | mis_spec=1
+[23:39:52] SCENARIO 33/36 start | S17 | mis_spec=0
+[23:43:45] SCENARIO 33/36 done | S17 | mis_spec=0
+[23:43:45] SCENARIO 34/36 start | S17 | mis_spec=1
+[23:47:25] SCENARIO 34/36 done | S17 | mis_spec=1
+[23:47:25] SCENARIO 35/36 start | S18 | mis_spec=0
+[23:51:14] SCENARIO 35/36 done | S18 | mis_spec=0
+[23:51:14] SCENARIO 36/36 start | S18 | mis_spec=1
+[23:54:53] SCENARIO 36/36 done | S18 | mis_spec=1
+There were 50 or more warnings (use warnings() to see the first 50)
+Saved patched time-updated raw output: output_jci_final/raw/ipcw_timeupdated_risk_rescue.csv
+Saved patched time-updated performance summary: output_jci_final/perf_summary_rescue_ipcw_timeupdated.csv
+Time-updated IPCW sensitivity patch rerun at 2026-05-25 23:54:54
+OUT_DIR=output_jci_final
+B=200; N=2000; expected_rows=14400; observed_rows=14400
+nonfinite core estimates: 0
+proportion glm_timeupdated status: 1.0000
+
+Model status counts:
+          dev_model_status     N   pct
+                    <char> <int> <num>
+1:  glm_timeupdated_richer  7200   0.5
+2: glm_timeupdated_reduced  7200   0.5 
+[2026-05-25 23:54:54] Time-updated IPCW sensitivity rerun finished
+Finished: patched time-updated IPCW sensitivity only
+
+------------------------------------------------------------
+Running: refresh JCI tables
+Script: scripts/02_make_tables_jci.R
+------------------------------------------------------------
+Saved JCI tables to: output_jci_final/tables
+Finished: refresh JCI tables
+
+------------------------------------------------------------
+Running: refresh JCI QA report
+Script: scripts/04_check_outputs_jci.R
+------------------------------------------------------------
+JCI standardized-IPCW QA run at 2026-05-25 23:54:54
+OUT_DIR=output_jci_final
+B=200; truth_levels=null,non_null; mis_spec=0,1; time_updated_sensitivity=1
+
+raw/replicate_results_rescue.csv rows: observed=14400 expected=14400
+raw/replicate_results_rescue.csv nonfinite beta_hat: 0
+raw/replicate_results_rescue.csv nonfinite se_hat: 0
+raw/replicate_results_rescue.csv nonfinite max_spd: 0
+raw/ipcw_risk_rescue.csv rows: observed=14400 expected=14400
+raw/ipcw_risk_rescue.csv nonfinite logrr: 0
+raw/ipcw_risk_rescue.csv nonfinite se_logrr: 0
+raw/ipcw_risk_rescue.csv nonfinite rd: 0
+raw/ipcw_risk_rescue.csv nonfinite se_rd: 0
+raw/ipcw_risk_rescue.csv nonfinite risk1: 0
+raw/ipcw_risk_rescue.csv nonfinite risk0: 0
+raw/dr_risk_rescue.csv rows: observed=14400 expected=14400
+raw/dr_risk_rescue.csv nonfinite logrr: 0
+raw/dr_risk_rescue.csv nonfinite se_logrr: 0
+raw/dr_risk_rescue.csv nonfinite rd: 0
+raw/dr_risk_rescue.csv nonfinite se_rd: 0
+raw/dr_risk_rescue.csv nonfinite risk1: 0
+raw/dr_risk_rescue.csv nonfinite risk0: 0
+raw/spd_curves_rescue.csv rows: observed=72000 expected=72000
+raw/spd_curves_rescue.csv nonfinite gamma_hat: 0
+raw/weight_diagnostics_rescue.csv rows: observed=288000 expected=288000
+raw/weight_diagnostics_rescue.csv nonfinite rESS: 0
+raw/weight_diagnostics_rescue.csv nonfinite tail_share: 0
+perf_summary_rescue_ipcw_risk.csv rows: observed=72 expected=72
+perf_summary_rescue_ipcw_risk.csv nonfinite ci_excl0: 0
+perf_summary_rescue_ipcw_risk.csv nonfinite cover: 0
+perf_summary_rescue_dr.csv rows: observed=72 expected=72
+perf_summary_rescue_dr.csv nonfinite ci_excl0: 0
+perf_summary_rescue_dr.csv nonfinite cover: 0
+raw/mc_truth_risk.csv rows: observed=36 expected=36
+raw/mc_truth_risk.csv nonfinite logrr_true: 0
+raw/mc_truth_risk.csv nonfinite rd_true: 0
+raw/ipcw_timeupdated_risk_rescue.csv rows: observed=14400 expected=14400
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite logrr: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite se_logrr: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite rd: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite se_rd: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite risk1: 0
+raw/ipcw_timeupdated_risk_rescue.csv nonfinite risk0: 0
+perf_summary_rescue_ipcw_timeupdated.csv rows: observed=72 expected=72
+perf_summary_rescue_ipcw_timeupdated.csv nonfinite ci_excl0: 0
+perf_summary_rescue_ipcw_timeupdated.csv nonfinite cover: 0
+raw/ipcw_timeupdated_risk_rescue.csv dev_model_status counts:
+          dev_model_status     N   pct
+                    <char> <int> <num>
+1:  glm_timeupdated_richer  7200   0.5
+2: glm_timeupdated_reduced  7200   0.5
+raw/ipcw_timeupdated_risk_rescue.csv proportion glm_timeupdated status: 1.0000 
+Finished: refresh JCI QA report
+
+============================================================
+Patched time-updated sensitivity rerun completed.
+Check: output_jci_final/audit/timeupdated_sensitivity_patch_qa.txt
+============================================================

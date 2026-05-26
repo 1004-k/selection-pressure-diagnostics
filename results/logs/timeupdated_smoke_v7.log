@@ -1,0 +1,112 @@
+
+============================================================
+JCI patched time-updated IPCW sensitivity rerun
+============================================================
+Mode: smoke
+OUT_DIR: output_jci_tu_smoke
+B: 3
+N: 300
+N_CORES: 4
+============================================================
+
+
+------------------------------------------------------------
+Running: patched time-updated IPCW sensitivity only
+Script: scripts/05_rerun_timeupdated_sensitivity_only.R
+------------------------------------------------------------
+Loaded existing intervention MC truth: output_jci_tu_smoke/raw/mc_truth_risk.csv
+[1] TRUE
+[2026-05-25 21:29:40] Time-updated IPCW sensitivity rerun started | OUT_DIR=output_jci_tu_smoke | scenarios=36 | mis_spec=0,1 | B=3 | N=300 | truths=null,non_null | N_CORES=4
+[21:29:40] SCENARIO 1/36 start | S01 | mis_spec=0
+[21:29:44] SCENARIO 1/36 done | S01 | mis_spec=0
+[21:29:44] SCENARIO 2/36 start | S01 | mis_spec=1
+[21:29:47] SCENARIO 2/36 done | S01 | mis_spec=1
+[21:29:47] SCENARIO 3/36 start | S02 | mis_spec=0
+[21:29:49] SCENARIO 3/36 done | S02 | mis_spec=0
+[21:29:49] SCENARIO 4/36 start | S02 | mis_spec=1
+[21:29:52] SCENARIO 4/36 done | S02 | mis_spec=1
+[21:29:52] SCENARIO 5/36 start | S03 | mis_spec=0
+[21:29:55] SCENARIO 5/36 done | S03 | mis_spec=0
+[21:29:55] SCENARIO 6/36 start | S03 | mis_spec=1
+[21:29:58] SCENARIO 6/36 done | S03 | mis_spec=1
+[21:29:58] SCENARIO 7/36 start | S04 | mis_spec=0
+[21:30:00] SCENARIO 7/36 done | S04 | mis_spec=0
+[21:30:00] SCENARIO 8/36 start | S04 | mis_spec=1
+[21:30:03] SCENARIO 8/36 done | S04 | mis_spec=1
+[21:30:03] SCENARIO 9/36 start | S05 | mis_spec=0
+[21:30:06] SCENARIO 9/36 done | S05 | mis_spec=0
+[21:30:06] SCENARIO 10/36 start | S05 | mis_spec=1
+[21:30:08] SCENARIO 10/36 done | S05 | mis_spec=1
+[21:30:08] SCENARIO 11/36 start | S06 | mis_spec=0
+[21:30:11] SCENARIO 11/36 done | S06 | mis_spec=0
+[21:30:11] SCENARIO 12/36 start | S06 | mis_spec=1
+[21:30:14] SCENARIO 12/36 done | S06 | mis_spec=1
+[21:30:14] SCENARIO 13/36 start | S07 | mis_spec=0
+[21:30:16] SCENARIO 13/36 done | S07 | mis_spec=0
+[21:30:16] SCENARIO 14/36 start | S07 | mis_spec=1
+[21:30:19] SCENARIO 14/36 done | S07 | mis_spec=1
+[21:30:19] SCENARIO 15/36 start | S08 | mis_spec=0
+[21:30:22] SCENARIO 15/36 done | S08 | mis_spec=0
+[21:30:22] SCENARIO 16/36 start | S08 | mis_spec=1
+[21:30:25] SCENARIO 16/36 done | S08 | mis_spec=1
+[21:30:25] SCENARIO 17/36 start | S09 | mis_spec=0
+[21:30:28] SCENARIO 17/36 done | S09 | mis_spec=0
+[21:30:28] SCENARIO 18/36 start | S09 | mis_spec=1
+[21:30:30] SCENARIO 18/36 done | S09 | mis_spec=1
+[21:30:30] SCENARIO 19/36 start | S10 | mis_spec=0
+[21:30:33] SCENARIO 19/36 done | S10 | mis_spec=0
+[21:30:33] SCENARIO 20/36 start | S10 | mis_spec=1
+[21:30:36] SCENARIO 20/36 done | S10 | mis_spec=1
+[21:30:36] SCENARIO 21/36 start | S11 | mis_spec=0
+[21:30:38] SCENARIO 21/36 done | S11 | mis_spec=0
+[21:30:38] SCENARIO 22/36 start | S11 | mis_spec=1
+[21:30:41] SCENARIO 22/36 done | S11 | mis_spec=1
+[21:30:41] SCENARIO 23/36 start | S12 | mis_spec=0
+[21:30:44] SCENARIO 23/36 done | S12 | mis_spec=0
+[21:30:44] SCENARIO 24/36 start | S12 | mis_spec=1
+[21:30:46] SCENARIO 24/36 done | S12 | mis_spec=1
+[21:30:46] SCENARIO 25/36 start | S13 | mis_spec=0
+[21:30:49] SCENARIO 25/36 done | S13 | mis_spec=0
+[21:30:49] SCENARIO 26/36 start | S13 | mis_spec=1
+[21:30:52] SCENARIO 26/36 done | S13 | mis_spec=1
+[21:30:52] SCENARIO 27/36 start | S14 | mis_spec=0
+[21:30:55] SCENARIO 27/36 done | S14 | mis_spec=0
+[21:30:55] SCENARIO 28/36 start | S14 | mis_spec=1
+[21:30:57] SCENARIO 28/36 done | S14 | mis_spec=1
+[21:30:57] SCENARIO 29/36 start | S15 | mis_spec=0
+[21:31:00] SCENARIO 29/36 done | S15 | mis_spec=0
+[21:31:00] SCENARIO 30/36 start | S15 | mis_spec=1
+[21:31:03] SCENARIO 30/36 done | S15 | mis_spec=1
+[21:31:03] SCENARIO 31/36 start | S16 | mis_spec=0
+[21:31:06] SCENARIO 31/36 done | S16 | mis_spec=0
+[21:31:06] SCENARIO 32/36 start | S16 | mis_spec=1
+[21:31:08] SCENARIO 32/36 done | S16 | mis_spec=1
+[21:31:08] SCENARIO 33/36 start | S17 | mis_spec=0
+[21:31:11] SCENARIO 33/36 done | S17 | mis_spec=0
+[21:31:11] SCENARIO 34/36 start | S17 | mis_spec=1
+[21:31:14] SCENARIO 34/36 done | S17 | mis_spec=1
+[21:31:14] SCENARIO 35/36 start | S18 | mis_spec=0
+[21:31:16] SCENARIO 35/36 done | S18 | mis_spec=0
+[21:31:16] SCENARIO 36/36 start | S18 | mis_spec=1
+[21:31:19] SCENARIO 36/36 done | S18 | mis_spec=1
+There were 50 or more warnings (use warnings() to see the first 50)
+Saved patched time-updated raw output: output_jci_tu_smoke/raw/ipcw_timeupdated_risk_rescue.csv
+Saved patched time-updated performance summary: output_jci_tu_smoke/perf_summary_rescue_ipcw_timeupdated.csv
+Time-updated IPCW sensitivity patch rerun at 2026-05-25 21:31:19
+OUT_DIR=output_jci_tu_smoke
+B=3; N=300; expected_rows=216; observed_rows=216
+nonfinite core estimates: 0
+proportion glm_timeupdated status: 1.0000
+
+Model status counts:
+          dev_model_status     N   pct
+                    <char> <int> <num>
+1:  glm_timeupdated_richer   108   0.5
+2: glm_timeupdated_reduced   108   0.5 
+[2026-05-25 21:31:19] Time-updated IPCW sensitivity rerun finished
+Finished: patched time-updated IPCW sensitivity only
+
+============================================================
+Patched time-updated sensitivity rerun completed.
+Check: output_jci_tu_smoke/audit/timeupdated_sensitivity_patch_qa.txt
+============================================================

@@ -1,0 +1,15 @@
+# scripts/00_utils.R
+# Convenience: source all core modules
+source("R/00_utils.R")
+source("R/01_scenarios.R")
+source("R/02_dgp_simulate.R")
+source("R/03_spd_curve.R")
+source("R/04_pp_ipcw.R")
+source("R/05_tipping.R")
+source("R/06_performance.R")
+source("R/07_plotting.R")
+source("R/08_generality.R")
+source("R/09_dr_aipw_ml.R")
+source("R/10_ipcw_risk_standardized.R")
+source("R/11_mc_truth_intervention.R")
+source("R/12_ipcw_timeupdated_sensitivity.R")

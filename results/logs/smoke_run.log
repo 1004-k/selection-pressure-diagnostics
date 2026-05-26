@@ -1,0 +1,175 @@
+
+============================================================
+JCI final rerun: standardized IPCW + intervention truth
+============================================================
+Mode: smoke
+Project root: /home/rjsncr1004/jci_run/JCI_final_code_package_v5_TIME_UPDATED_SENSITIVITY
+OUT_DIR: output_jci_smoke_final
+B: 3
+N: 300
+TRUTH_LEVELS: null,non_null
+MIS_SPEC_LEVELS: 0,1
+BETA_TRUE_PP: -0.22314355131420976
+MC_TRUTH: 1
+N_TRUTH: 5000
+B_TRUTH: 1
+RUN_DR: 1
+RUN_ML: 0
+RUN_TMLE: 0
+RUN_TIME_UPDATED_SENS: 1
+IPCW_ESTIMATOR: hajek
+N_CORES: 2
+============================================================
+
+
+------------------------------------------------------------
+Running: main simulation with standardized IPCW, intervention truth, and time-updated sensitivity
+Script: scripts/01_run_main_simulation_standardized.R
+------------------------------------------------------------
+Computing intervention-based MC truth for risk logRR/RD (N_TRUTH=5000, B_TRUTH=1) ...
+Saved intervention MC truth: output_jci_smoke_final/raw/mc_truth_risk.csv
+Scenarios: 36  | truths: null,non_null  | B= 3  | N= 300 
+OUT_DIR: output_jci_smoke_final 
+
+[Scenario 1/36] S01 | A=flat | B=none | rho=0.4 | mis_spec=0
+
+[Scenario 2/36] S01 | A=flat | B=none | rho=0.4 | mis_spec=1
+
+[Scenario 3/36] S02 | A=flat | B=none | rho=0.7 | mis_spec=0
+
+[Scenario 4/36] S02 | A=flat | B=none | rho=0.7 | mis_spec=1
+
+[Scenario 5/36] S03 | A=flat | B=none | rho=1.0 | mis_spec=0
+
+[Scenario 6/36] S03 | A=flat | B=none | rho=1.0 | mis_spec=1
+
+[Scenario 7/36] S04 | A=flat | B=threshold_jump | rho=0.4 | mis_spec=0
+
+[Scenario 8/36] S04 | A=flat | B=threshold_jump | rho=0.4 | mis_spec=1
+
+[Scenario 9/36] S05 | A=flat | B=threshold_jump | rho=0.7 | mis_spec=0
+
+[Scenario 10/36] S05 | A=flat | B=threshold_jump | rho=0.7 | mis_spec=1
+
+[Scenario 11/36] S06 | A=flat | B=threshold_jump | rho=1.0 | mis_spec=0
+
+[Scenario 12/36] S06 | A=flat | B=threshold_jump | rho=1.0 | mis_spec=1
+
+[Scenario 13/36] S07 | A=increasing | B=none | rho=0.4 | mis_spec=0
+
+[Scenario 14/36] S07 | A=increasing | B=none | rho=0.4 | mis_spec=1
+
+[Scenario 15/36] S08 | A=increasing | B=none | rho=0.7 | mis_spec=0
+
+[Scenario 16/36] S08 | A=increasing | B=none | rho=0.7 | mis_spec=1
+
+[Scenario 17/36] S09 | A=increasing | B=none | rho=1.0 | mis_spec=0
+
+[Scenario 18/36] S09 | A=increasing | B=none | rho=1.0 | mis_spec=1
+
+[Scenario 19/36] S10 | A=increasing | B=threshold_jump | rho=0.4 | mis_spec=0
+
+[Scenario 20/36] S10 | A=increasing | B=threshold_jump | rho=0.4 | mis_spec=1
+
+[Scenario 21/36] S11 | A=increasing | B=threshold_jump | rho=0.7 | mis_spec=0
+
+[Scenario 22/36] S11 | A=increasing | B=threshold_jump | rho=0.7 | mis_spec=1
+
+[Scenario 23/36] S12 | A=increasing | B=threshold_jump | rho=1.0 | mis_spec=0
+
+[Scenario 24/36] S12 | A=increasing | B=threshold_jump | rho=1.0 | mis_spec=1
+
+[Scenario 25/36] S13 | A=late_surge | B=none | rho=0.4 | mis_spec=0
+
+[Scenario 26/36] S13 | A=late_surge | B=none | rho=0.4 | mis_spec=1
+
+[Scenario 27/36] S14 | A=late_surge | B=none | rho=0.7 | mis_spec=0
+
+[Scenario 28/36] S14 | A=late_surge | B=none | rho=0.7 | mis_spec=1
+
+[Scenario 29/36] S15 | A=late_surge | B=none | rho=1.0 | mis_spec=0
+
+[Scenario 30/36] S15 | A=late_surge | B=none | rho=1.0 | mis_spec=1
+
+[Scenario 31/36] S16 | A=late_surge | B=threshold_jump | rho=0.4 | mis_spec=0
+
+[Scenario 32/36] S16 | A=late_surge | B=threshold_jump | rho=0.4 | mis_spec=1
+
+[Scenario 33/36] S17 | A=late_surge | B=threshold_jump | rho=0.7 | mis_spec=0
+
+[Scenario 34/36] S17 | A=late_surge | B=threshold_jump | rho=0.7 | mis_spec=1
+
+[Scenario 35/36] S18 | A=late_surge | B=threshold_jump | rho=1.0 | mis_spec=0
+
+[Scenario 36/36] S18 | A=late_surge | B=threshold_jump | rho=1.0 | mis_spec=1
+
+Saved outputs to: output_jci_smoke_final 
+
+Finished: main simulation with standardized IPCW, intervention truth, and time-updated sensitivity
+
+------------------------------------------------------------
+Running: JCI tables
+Script: scripts/02_make_tables_jci.R
+------------------------------------------------------------
+Saved JCI tables to: output_jci_smoke_final/tables
+
+Finished: JCI tables
+
+------------------------------------------------------------
+Running: JCI figures
+Script: scripts/03_make_figures_jci.R
+------------------------------------------------------------
+Saved JCI figures to:  output_jci_smoke_final/figures 
+
+Finished: JCI figures
+
+------------------------------------------------------------
+Running: JCI output QA checks
+Script: scripts/04_check_outputs_jci.R
+------------------------------------------------------------
+JCI standardized-IPCW QA run at 2026-05-25 16:25:21
+OUT_DIR=output_jci_smoke_final
+B=3; truth_levels=null,non_null; mis_spec=0,1
+
+raw/replicate_results_rescue.csv rows: observed=216 expected=216
+raw/replicate_results_rescue.csv nonfinite beta_hat: 0
+raw/replicate_results_rescue.csv nonfinite se_hat: 0
+raw/replicate_results_rescue.csv nonfinite max_spd: 0
+raw/ipcw_risk_rescue.csv rows: observed=216 expected=216
+raw/ipcw_risk_rescue.csv nonfinite logrr: 0
+raw/ipcw_risk_rescue.csv nonfinite se_logrr: 0
+raw/ipcw_risk_rescue.csv nonfinite rd: 0
+raw/ipcw_risk_rescue.csv nonfinite se_rd: 0
+raw/ipcw_risk_rescue.csv nonfinite risk1: 0
+raw/ipcw_risk_rescue.csv nonfinite risk0: 0
+raw/dr_risk_rescue.csv rows: observed=216 expected=216
+raw/dr_risk_rescue.csv nonfinite logrr: 0
+raw/dr_risk_rescue.csv nonfinite se_logrr: 0
+raw/dr_risk_rescue.csv nonfinite rd: 0
+raw/dr_risk_rescue.csv nonfinite se_rd: 0
+raw/dr_risk_rescue.csv nonfinite risk1: 0
+raw/dr_risk_rescue.csv nonfinite risk0: 0
+raw/spd_curves_rescue.csv rows: observed=1080 expected=1080
+raw/spd_curves_rescue.csv nonfinite gamma_hat: 0
+raw/weight_diagnostics_rescue.csv rows: observed=4320 expected=4320
+raw/weight_diagnostics_rescue.csv nonfinite rESS: 0
+raw/weight_diagnostics_rescue.csv nonfinite tail_share: 0
+perf_summary_rescue_ipcw_risk.csv rows: observed=72 expected=72
+perf_summary_rescue_ipcw_risk.csv nonfinite ci_excl0: 0
+perf_summary_rescue_ipcw_risk.csv nonfinite cover: 0
+perf_summary_rescue_dr.csv rows: observed=72 expected=72
+perf_summary_rescue_dr.csv nonfinite ci_excl0: 0
+perf_summary_rescue_dr.csv nonfinite cover: 0
+raw/mc_truth_risk.csv rows: observed=36 expected=36
+raw/mc_truth_risk.csv nonfinite logrr_true: 0
+raw/mc_truth_risk.csv nonfinite rd_true: 0 
+
+Updated QA report with time-updated sensitivity checks.
+
+Finished: JCI output QA checks
+
+============================================================
+All steps completed successfully.
+Output folder: output_jci_smoke_final
+Use these outputs only if the QA report is clean.
+============================================================
