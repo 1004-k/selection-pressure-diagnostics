@@ -18,13 +18,11 @@ R/                         Core simulation and estimator functions
 scripts/                   Main run, table, figure, and QA scripts
 run_jci_final.R            R-only runner for smoke/full main reproduction
 run_jci_timeupdated_only.R R-only runner for time-updated sensitivity rerun
-docs/                      Method notes and guardrails
 results/figures/           Final manuscript figures
 results/tables/            Final main and supplementary tables
 results/audit/             QA reports and session information
 results/logs/              Full-run logs
 precomputed/               Complete final output archive and SHA256 checksum
-manuscript/                Manuscript and supplement source/PDF snapshot
 install_packages.R         Minimal package installer
 ```
 
@@ -127,13 +125,3 @@ results/audit/JCI_v7_full_output_QA_report.md
 results/audit/jci_output_qa_report.txt
 results/audit/timeupdated_sensitivity_patch_qa.txt
 ```
-
-## Notes for public GitHub release
-
-Before making the repository public, update:
-
-1. `CITATION.cff`, especially `repository-code`.
-2. Any author/contributor information you want visible.
-3. The manuscript citation once the article has a DOI.
-
-Do not mix older EJE/Paper B output files with this repository. The final JCI manuscript should use only the v7 outputs documented here.
